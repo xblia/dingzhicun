@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner开始*/
+.banner{min-width: 1200px;
+text-align: center;
+position: relative;}
+.flexslider { position: relative; height: 450px; overflow: hidden; background: url(../images/loading.gif) 50% no-repeat;}
+.slides { position: relative; z-index: 1;}
+.slides li { height: 450px;}
+.flex-control-nav { position: absolute; bottom: 10px; z-index: 2; width: 100%; text-align: center;}
+.flex-control-nav li { display: inline-block; width: 14px; height: 14px; margin: 0 5px; *display: inline; zoom: 1;}
+.flex-control-nav a { display: inline-block; width: 14px; height: 14px; line-height: 40px; overflow: hidden; background: url(../images/dot.png) right 0 no-repeat; cursor: pointer;}
+.flex-control-nav .flex-active { background-position: 0 0;}
+/*banner结束*/
+/*我们的服务开始*/
+.busi_title {
+height: 80px;
+padding: 50px 0 50px 0;
+background: url(../images/title_bg1.jpg) no-repeat center bottom;
+border-bottom: solid 2px #dbdbdb;
+}
+.busi_t {
+width: 205px;
+height: 80px;
+margin: 0 auto;
+border-bottom: solid 2px #e70012;
+text-align: center;
+font-size: 30px;
+line-height: 78px;
+}
+.busi_nr {
+padding: 65px 0 26px 0;
+}
+.busi_zj{width:1155px;margin:0 auto}
+.busi_list01{width:384px;float:left;text-align:center}
+.busi_pic01{height:214px}
+.busi_pic01 a{height:188px;display:block}
+.busi_text01{height:40px;font-size:18px}
+.busi_text02{height:44px;color:#8f8c8c;font-size:14px}
+.busi_more a{width:104px;height:32px;display:block;background:#979797;margin:0 auto;color:#fff;line-height:32px}
+.busi_more a:hover{background:#e70012;text-decoration:none}
+.busi_pic02{width:38px;float:left;padding:76px 0 0 0}
+.busi_pic_1{background:url(../images/busi_pic1.jpg) no-repeat center center!important}
+.busi_pic_2{background:url(../images/busi_pic2.jpg) no-repeat center center!important}
+.busi_pic_3{background:url(../images/busi_pic3.jpg) no-repeat center center!important}
+
+
+
+/*我们的服务结束*/
+
+/*案例展示开始*/
+.case_title {
+height: 80px;
+padding: 50px 0 0 0;
+border-bottom: solid 2px #dbdbdb;
+}
+.case_t {
+width: 205px;
+height: 80px;
+margin: 0 auto;
+border-bottom: solid 2px #e70012;
+text-align: center;
+font-size: 30px;
+line-height: 78px;
+}
+.case_pro {
+width: 1152px;
+clear: both; margin:0 auto;
+
+}
+.case_pro li {
+width: 384px;
+text-align: center;
+float: left; margin-top:30px;
+
+}
+.case_pro li img { width:353px; height:267px;}
+.case_pro li a { text-decoration:none 
+}
+.case_pro li h3 {font-weight: normal;font-size: 18px;
+height: 22px;
+overflow: hidden;
+color: #4c4c4c;
+padding-top: 20px;
+text-align: center;}
+/*案例展示结束*/
